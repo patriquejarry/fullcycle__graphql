@@ -1,0 +1,26 @@
+{
+  "name": "fullcycle__graphql",
+  "version": "1.0.0",
+  "description": "GraphQL: The least that a Full Cycle Developer needs to know",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "client.js"
+    ]
+  },
+  "author": "Patrique Jarry",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:patriquejarry/fullcycle__graphql.git"
+  },
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "axios": "^0.20.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {}
+}
