@@ -22,7 +22,10 @@ Installing
 * npm i
 
 Starting Server
-* nodemon
+* nodemon -L
 
 Starting Client
 * node client.js
+
+Playground
+* http://localhost:4001/
